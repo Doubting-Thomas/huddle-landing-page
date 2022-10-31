@@ -1,0 +1,35 @@
+:root {
+  /* COLOR VARIABLES */
+  --color-primary-1: hsl(322, 100%, 66%);
+
+  --color-neutral-1: hsl(193, 100%, 96%);
+  --color-neutral-2: hsl(192, 100%, 9%);
+  --color-neutral-3: hsl(208, 11%, 55%);
+
+  /* FONT VARIABLES */
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+}
+
+section {
+  width: 100rem;
+  margin: 0 auto;
+}

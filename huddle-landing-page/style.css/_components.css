@@ -1,0 +1,18 @@
+.btn {
+  padding: 1.5rem 4rem;
+  border: none;
+  font-family: inherit;
+  border-radius: 5rem;
+  background-color: var(--color-primary-1);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+}
+
+.btn:active {
+  transform: translate(0);
+}
