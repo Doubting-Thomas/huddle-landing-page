@@ -32,4 +32,5 @@ body {
 section {
   width: 100rem;
   margin: 0 auto;
+  transition: all 0.3s;
 }
