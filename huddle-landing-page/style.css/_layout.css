@@ -63,12 +63,30 @@
 }
 
 footer {
-  background-color: var(--color-neutral-2);
+  /* background-color: var(--color-neutral-2);
   color: var(--color-neutral-1);
-  padding: 15rem;
+  padding: 15rem; */
+  position: relative;
+}
+
+.cta {
+  width: 50%;
+  position: absolute;
+  top: -14rem;
+  left: 30rem;
+  padding: 3rem 10rem;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
 }
 
 .footer-container {
+  background-color: var(--color-neutral-2);
+  color: var(--color-neutral-1);
+  padding: 15rem;
+  /* position: relative; */
+
   display: flex;
   align-items: center;
   gap: 2rem;
