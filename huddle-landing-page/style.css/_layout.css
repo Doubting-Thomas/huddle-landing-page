@@ -61,3 +61,56 @@
   width: 100%;
   display: block;
 }
+
+footer {
+  background-color: var(--color-neutral-2);
+  color: var(--color-neutral-1);
+  padding: 15rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.company-info {
+  flex-basis: 90%;
+}
+
+.company-logo {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.company-contact {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-icon-location {
+  align-self: flex-start;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  margin: 1rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
