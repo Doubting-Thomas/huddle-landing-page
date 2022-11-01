@@ -53,7 +53,7 @@
   padding: 10rem;
   align-items: center;
   gap: 2rem;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  box-shadow: var(--box-shadow);
 }
 
 .feature-image {
@@ -63,9 +63,6 @@
 }
 
 footer {
-  /* background-color: var(--color-neutral-2);
-  color: var(--color-neutral-1);
-  padding: 15rem; */
   position: relative;
 }
 
@@ -78,14 +75,13 @@ footer {
   background-color: #fff;
   text-align: center;
   border-radius: 1rem;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  box-shadow: var(--box-shadow);
 }
 
 .footer-container {
   background-color: var(--color-neutral-2);
   color: var(--color-neutral-1);
   padding: 15rem;
-  /* position: relative; */
 
   display: flex;
   align-items: center;
@@ -126,6 +122,11 @@ footer {
 li > a {
   text-decoration: none;
   color: currentColor;
+  transition: all 0.3s;
+}
+
+li > a:hover {
+  color: var(--color-neutral-3);
 }
 
 .social-icons {
